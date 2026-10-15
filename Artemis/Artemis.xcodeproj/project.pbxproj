@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FF89F302EDC900000BA96E1 /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF89F322EDC900000BA96E1 /* MWDATCore */; };
+		9FF89F312EDC900000BA96E1 /* MWDATCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF89F332EDC900000BA96E1 /* MWDATCamera */; };
+		9FF89F352EDC900000BA96E1 /* MWDATDisplay in Frameworks */ = {isa = PBXBuildFile; productRef = 9FF89F362EDC900000BA96E1 /* MWDATDisplay */; };
+		A4B100022EEEF00000BA96E1 /* LiteRTLM in Frameworks */ = {isa = PBXBuildFile; productRef = A4B100042EEEF00000BA96E1 /* LiteRTLM */; };
+		B9C2A9002EF02B0000BA96E1 /* LeapModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = B9C2A9022EF02B0000BA96E1 /* LeapModelDownloader */; };
+		B9C2A9042EF02B0000BA96E1 /* LeapSDK in Frameworks */ = {isa = PBXBuildFile; productRef = B9C2A9052EF02B0000BA96E1 /* LeapSDK */; };
+		C0C0A0012F10000000BA96E1 /* KokoroSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C0C0A0052F10000000BA96E1 /* KokoroSwift */; };
+		C0C0A0022F10000000BA96E1 /* KokoroSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = C0C0A0052F10000000BA96E1 /* KokoroSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C0C0A0032F10000000BA96E1 /* MLXUtilsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = C0C0A0062F10000000BA96E1 /* MLXUtilsLibrary */; };
+		D1D100032F11000000BA96E1 /* onnxruntime in Frameworks */ = {isa = PBXBuildFile; productRef = D1D100022F11000000BA96E1 /* onnxruntime */; };
+		D1D100062F11000000BA96E1 /* MisakiSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D1D100052F11000000BA96E1 /* MisakiSwift */; };
+		D1D100072F11000000BA96E1 /* MisakiSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = D1D100052F11000000BA96E1 /* MisakiSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E5A100012F40000000BA96E1 /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E5A100032F40000000BA96E1 /* FluidAudio */; };
+		E5A100042F40000000BA96E1 /* espeak-ng-data in Resources */ = {isa = PBXBuildFile; fileRef = E5A100052F40000000BA96E1 /* espeak-ng-data */; };
+		F6A100032F50000000BA96E1 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = F6A100022F50000000BA96E1 /* MLX */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0C0A0042F10000000BA96E1 /* Embed Kokoro Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C0C0A0022F10000000BA96E1 /* KokoroSwift in Embed Frameworks */,
+				D1D100072F11000000BA96E1 /* MisakiSwift in Embed Frameworks */,
+			);
+			name = "Embed Kokoro Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FF89F112EDC242500BA96E1 /* Artemis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artemis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A100052F40000000BA96E1 /* espeak-ng-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Artemis/Resources/espeak-ng-data"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9FF89F132EDC242500BA96E1 /* Artemis */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Artemis;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF89F0E2EDC242500BA96E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF89F302EDC900000BA96E1 /* MWDATCore in Frameworks */,
+				9FF89F312EDC900000BA96E1 /* MWDATCamera in Frameworks */,
+				9FF89F352EDC900000BA96E1 /* MWDATDisplay in Frameworks */,
+				A4B100022EEEF00000BA96E1 /* LiteRTLM in Frameworks */,
+				B9C2A9002EF02B0000BA96E1 /* LeapModelDownloader in Frameworks */,
+				B9C2A9042EF02B0000BA96E1 /* LeapSDK in Frameworks */,
+				C0C0A0012F10000000BA96E1 /* KokoroSwift in Frameworks */,
+				C0C0A0032F10000000BA96E1 /* MLXUtilsLibrary in Frameworks */,
+				D1D100032F11000000BA96E1 /* onnxruntime in Frameworks */,
+				D1D100062F11000000BA96E1 /* MisakiSwift in Frameworks */,
+				E5A100012F40000000BA96E1 /* FluidAudio in Frameworks */,
+				F6A100032F50000000BA96E1 /* MLX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FF89F082EDC242500BA96E1 = {
+			isa = PBXGroup;
+			children = (
+				9FF89F132EDC242500BA96E1 /* Artemis */,
+				E5A100052F40000000BA96E1 /* espeak-ng-data */,
+				9FF89F122EDC242500BA96E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF89F122EDC242500BA96E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF89F112EDC242500BA96E1 /* Artemis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF89F102EDC242500BA96E1 /* Artemis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF89F1C2EDC242600BA96E1 /* Build configuration list for PBXNativeTarget "Artemis" */;
+			buildPhases = (
+				9FF89F0D2EDC242500BA96E1 /* Sources */,
+				9FF89F0E2EDC242500BA96E1 /* Frameworks */,
+				9FF89F0F2EDC242500BA96E1 /* Resources */,
+				C0C0A0042F10000000BA96E1 /* Embed Kokoro Frameworks */,
+				B9C2A9032EF02B0000BA96E1 /* Sign nested LeapSDK dylibs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9FF89F132EDC242500BA96E1 /* Artemis */,
+			);
+			name = Artemis;
+			packageProductDependencies = (
+				9FF89F322EDC900000BA96E1 /* MWDATCore */,
+				9FF89F332EDC900000BA96E1 /* MWDATCamera */,
+				9FF89F362EDC900000BA96E1 /* MWDATDisplay */,
+				A4B100042EEEF00000BA96E1 /* LiteRTLM */,
+				B9C2A9022EF02B0000BA96E1 /* LeapModelDownloader */,
+				B9C2A9052EF02B0000BA96E1 /* LeapSDK */,
+				C0C0A0052F10000000BA96E1 /* KokoroSwift */,
+				C0C0A0062F10000000BA96E1 /* MLXUtilsLibrary */,
+				D1D100022F11000000BA96E1 /* onnxruntime */,
+				D1D100052F11000000BA96E1 /* MisakiSwift */,
+				E5A100032F40000000BA96E1 /* FluidAudio */,
+				F6A100022F50000000BA96E1 /* MLX */,
+			);
+			productName = Artemis;
+			productReference = 9FF89F112EDC242500BA96E1 /* Artemis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF89F092EDC242500BA96E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					9FF89F102EDC242500BA96E1 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FF89F0C2EDC242500BA96E1 /* Build configuration list for PBXProject "Artemis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF89F082EDC242500BA96E1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9FF89F342EDC900000BA96E1 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,
+				A4B100032EEEF00000BA96E1 /* XCLocalSwiftPackageReference "../Vendor/LiteRT-LM" */,
+				B9C2A9012EF02B0000BA96E1 /* XCRemoteSwiftPackageReference "leap-sdk" */,
+				C0C0A0072F10000000BA96E1 /* XCRemoteSwiftPackageReference "kokoro-ios" */,
+				C0C0A0082F10000000BA96E1 /* XCRemoteSwiftPackageReference "MLXUtilsLibrary" */,
+				D1D100012F11000000BA96E1 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */,
+				D1D100042F11000000BA96E1 /* XCRemoteSwiftPackageReference "MisakiSwift" */,
+				E5A100022F40000000BA96E1 /* XCRemoteSwiftPackageReference "FluidAudio" */,
+				F6A100012F50000000BA96E1 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9FF89F122EDC242500BA96E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF89F102EDC242500BA96E1 /* Artemis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF89F0F2EDC242500BA96E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A100042F40000000BA96E1 /* espeak-ng-data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9C2A9032EF02B0000BA96E1 /* Sign nested LeapSDK dylibs */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sign nested Leap dylibs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n[ \"$CODE_SIGNING_ALLOWED\" = \"YES\" ] || exit 0\nstrip_bundle_xattrs() {\n  BUNDLE_PATH=\"$1\"\n  [ -d \"$BUNDLE_PATH\" ] || return 0\n  find \"$BUNDLE_PATH\" -type d -exec xattr -c {} \\; 2>/dev/null || true\n}\nfor FRAMEWORK in \\\n  \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeapSDK.framework\" \\\n  \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeapModelDownloader.framework\"; do\n  [ -d \"$FRAMEWORK\" ] || continue\n  strip_bundle_xattrs \"$FRAMEWORK\"\n  NESTED=\"$FRAMEWORK/Frameworks\"\n  if [ -d \"$NESTED\" ]; then\n    for dylib in \"$NESTED\"/*.dylib; do\n      [ -f \"$dylib\" ] || continue\n      codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" --timestamp=none --generate-entitlement-der \"$dylib\"\n    done\n  fi\n  strip_bundle_xattrs \"$FRAMEWORK\"\n  codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" --timestamp=none --generate-entitlement-der \"$FRAMEWORK\"\ndone\nstrip_bundle_xattrs \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF89F0D2EDC242500BA96E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FF89F1A2EDC242600BA96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9FF89F1B2EDC242600BA96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9FF89F1D2EDC242600BA96E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Vendor/eSpeakNG/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/Frameworks/LeapSDK.framework/Frameworks";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited) -L$(BUILT_PRODUCTS_DIR)/LeapSDK.framework/Frameworks -linference_engine -linference_engine_llamacpp_backend";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Vendor/eSpeakNG/lib/libespeak-ng-ios.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devanshjain.Jarvis;
+				PRODUCT_NAME = Jarvis;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OBJC_BRIDGING_HEADER = "Artemis/Artemis-Bridging-Header.h";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FF89F1E2EDC242600BA96E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Vendor/eSpeakNG/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/Frameworks/LeapSDK.framework/Frameworks";
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited) -L$(BUILT_PRODUCTS_DIR)/LeapSDK.framework/Frameworks -linference_engine -linference_engine_llamacpp_backend";
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Vendor/eSpeakNG/lib/libespeak-ng-ios.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devanshjain.Jarvis;
+				PRODUCT_NAME = Jarvis;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OBJC_BRIDGING_HEADER = "Artemis/Artemis-Bridging-Header.h";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF89F0C2EDC242500BA96E1 /* Build configuration list for PBXProject "Artemis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF89F1A2EDC242600BA96E1 /* Debug */,
+				9FF89F1B2EDC242600BA96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF89F1C2EDC242600BA96E1 /* Build configuration list for PBXNativeTarget "Artemis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF89F1D2EDC242600BA96E1 /* Debug */,
+				9FF89F1E2EDC242600BA96E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FF89F342EDC900000BA96E1 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 0.8.0;
+			};
+		};
+		B9C2A9012EF02B0000BA96E1 /* XCRemoteSwiftPackageReference "leap-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Liquid4All/leap-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 0.10.9;
+			};
+		};
+		C0C0A0072F10000000BA96E1 /* XCRemoteSwiftPackageReference "kokoro-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mlalma/kokoro-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.11;
+			};
+		};
+		C0C0A0082F10000000BA96E1 /* XCRemoteSwiftPackageReference "MLXUtilsLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mlalma/MLXUtilsLibrary.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.6;
+			};
+		};
+		D1D100012F11000000BA96E1 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/onnxruntime-swift-package-manager";
+			requirement = {
+				kind = exactVersion;
+				version = 1.24.2;
+			};
+		};
+		D1D100042F11000000BA96E1 /* XCRemoteSwiftPackageReference "MisakiSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mlalma/MisakiSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.6;
+			};
+		};
+		E5A100022F40000000BA96E1 /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Devansh-Jain1/FluidAudio";
+			requirement = {
+				kind = revision;
+				revision = 0a1baf7a2fa4b5458b918b54bfb09305e3226a93;
+			};
+		};
+		F6A100012F50000000BA96E1 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 0.30.2;
+			};
+		};
+		A4B100032EEEF00000BA96E1 /* XCLocalSwiftPackageReference "../Vendor/LiteRT-LM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../Vendor/LiteRT-LM";
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FF89F322EDC900000BA96E1 /* MWDATCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF89F342EDC900000BA96E1 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCore;
+		};
+		9FF89F332EDC900000BA96E1 /* MWDATCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF89F342EDC900000BA96E1 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCamera;
+		};
+		9FF89F362EDC900000BA96E1 /* MWDATDisplay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FF89F342EDC900000BA96E1 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATDisplay;
+		};
+		A4B100042EEEF00000BA96E1 /* LiteRTLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4B100032EEEF00000BA96E1 /* XCLocalSwiftPackageReference "../Vendor/LiteRT-LM" */;
+			productName = LiteRTLM;
+		};
+		B9C2A9022EF02B0000BA96E1 /* LeapModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9C2A9012EF02B0000BA96E1 /* XCRemoteSwiftPackageReference "leap-sdk" */;
+			productName = LeapModelDownloader;
+		};
+		B9C2A9052EF02B0000BA96E1 /* LeapSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9C2A9012EF02B0000BA96E1 /* XCRemoteSwiftPackageReference "leap-sdk" */;
+			productName = LeapSDK;
+		};
+		C0C0A0052F10000000BA96E1 /* KokoroSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0C0A0072F10000000BA96E1 /* XCRemoteSwiftPackageReference "kokoro-ios" */;
+			productName = KokoroSwift;
+		};
+		C0C0A0062F10000000BA96E1 /* MLXUtilsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0C0A0082F10000000BA96E1 /* XCRemoteSwiftPackageReference "MLXUtilsLibrary" */;
+			productName = MLXUtilsLibrary;
+		};
+		D1D100022F11000000BA96E1 /* onnxruntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D100012F11000000BA96E1 /* XCRemoteSwiftPackageReference "onnxruntime-swift-package-manager" */;
+			productName = onnxruntime;
+		};
+		D1D100052F11000000BA96E1 /* MisakiSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D100042F11000000BA96E1 /* XCRemoteSwiftPackageReference "MisakiSwift" */;
+			productName = MisakiSwift;
+		};
+		E5A100032F40000000BA96E1 /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5A100022F40000000BA96E1 /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+		F6A100022F50000000BA96E1 /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6A100012F50000000BA96E1 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 9FF89F092EDC242500BA96E1 /* Project object */;
+}

@@ -1,0 +1,392 @@
+{
+  "source_revision": "1b6738bd14c4785ff36273270a130a4988608311",
+  "history_included": false,
+  "scope": "Allowlisted committed application source, contracts and selected static checks; not uncommitted development state",
+  "sanitization": [
+    "Meta registration values blank",
+    "telemetry endpoints disabled",
+    "signing team blank",
+    "associated domains removed",
+    "developer home paths generalized",
+    "private peer IPv4 addresses replaced with documentation address",
+    "model assets, raw media, personal exports, archived prototypes, device diagnostics and private experiment outputs excluded"
+  ],
+  "files": [
+    {
+      "path": "Artemis/Artemis.entitlements",
+      "sha256": "182593614b39639b8ff4a5a44f77fb8c02eb3b8c557699a2af82d48a699e51f1"
+    },
+    {
+      "path": "Artemis/Artemis.xcodeproj/project.pbxproj",
+      "sha256": "6374ae6ee2301ff0c12659464aef7cf67c0ff79d086a52008c1385c734e100c9"
+    },
+    {
+      "path": "Artemis/Artemis.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "Artemis/Artemis.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+      "sha256": "ba0a02874a524afdee8625fb00c4d6f735816eb0a0d76c01bd356f9ea3e9ebc3"
+    },
+    {
+      "path": "Artemis/Artemis/ArtemisApp.swift",
+      "sha256": "e5a1be534994ace21322c7e0c23814a8a521729e0c36bb80bb340ebd0f5bdc7c"
+    },
+    {
+      "path": "Artemis/Artemis/ArtemisAppV4.swift",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Artemis/Artemis/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c"
+    },
+    {
+      "path": "Artemis/Artemis/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "040294b5970a6d1d5b5a811e22086092954f6a1f503b38d0fae128bb02b4356a"
+    },
+    {
+      "path": "Artemis/Artemis/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "Artemis/Artemis/Core/ArtemisAudioRoutePolicy.swift",
+      "sha256": "702b1690d59b77aaf45542fa2995cc24e1dfd3da38c45eb30178ca454dbb9832"
+    },
+    {
+      "path": "Artemis/Artemis/Core/ArtemisTTSChunker.swift",
+      "sha256": "67caf8a29ceee21170845c34268e31d2e34062d38baf5547180ffa2bf8c5a39f"
+    },
+    {
+      "path": "Artemis/Artemis/Core/BackgroundAudioManager.swift",
+      "sha256": "fe4f9596a3b85c696c842daccf6e9a1b110a0fdbdf1f4115548bfe39f8afb7c9"
+    },
+    {
+      "path": "Artemis/Artemis/Core/DATLifecyclePolicy.swift",
+      "sha256": "5eac3c70b8a274587c66d1d8406944715db83e08f802e53c7982ec0cdcf3874e"
+    },
+    {
+      "path": "Artemis/Artemis/Core/DATRuntimeDiagnostics.swift",
+      "sha256": "70d2a70cddadba5c953e010a67376e7f1560d314ab6312c5c604d58ad94d4c0d"
+    },
+    {
+      "path": "Artemis/Artemis/Core/DATStartRetryPolicy.swift",
+      "sha256": "0654e4052ba1ae018eaad1b091f4f8201c800c5e22d1763152d89f4c74cac414"
+    },
+    {
+      "path": "Artemis/Artemis/Core/EchoDetector.swift",
+      "sha256": "41cfd65de8cada9e937b83c22574d6adbf71fd028cf6da773191f5ed9e9e8c97"
+    },
+    {
+      "path": "Artemis/Artemis/Core/HierarchicalVisionPolicy.swift",
+      "sha256": "079a5f00148113d0c231b7f354bcc406114d48afe199e145bbb9b56181ffa8f7"
+    },
+    {
+      "path": "Artemis/Artemis/Core/KokoroONNXSupport.swift",
+      "sha256": "e3c1cb6c26b0a3411aff096dc6db6cbc073696b663dd07145a4cc38cee40c637"
+    },
+    {
+      "path": "Artemis/Artemis/Core/KokoroSpeechOutput.swift",
+      "sha256": "102a9b79f82b3fbbbdd4b6f2e63db5bad8a7d062a2e06988c231ac8b5ab0b016"
+    },
+    {
+      "path": "Artemis/Artemis/Core/LiveStartupDecision.swift",
+      "sha256": "242a207cdc79a2539fc20c0b2b10c3c5ef4fec68f98639106fc9dd02dde0941d"
+    },
+    {
+      "path": "Artemis/Artemis/Core/STTTurnFinalizationPolicy.swift",
+      "sha256": "6dc7acf71de862ed3a1dbac36113753650622237be695aa717103fcc6d40883f"
+    },
+    {
+      "path": "Artemis/Artemis/Core/ToolSystem.swift",
+      "sha256": "6c9fd719d4896837d473b1c67cda2e5cf1ab5eb5f5e7522c928bbcb977caf907"
+    },
+    {
+      "path": "Artemis/Artemis/Core/TurnTakingManager.swift",
+      "sha256": "809796d095c33c2813bca0c9e57c03b89ffe70d1579ff7928d9d4cf83d992084"
+    },
+    {
+      "path": "Artemis/Artemis/Core/VisionFreshnessPolicy.swift",
+      "sha256": "39a2acb81bcc983bd0217403078b8629a7fab88c5fef3edfae83c1402665f98b"
+    },
+    {
+      "path": "Artemis/Artemis/Core/WearablePowerPolicy.swift",
+      "sha256": "1de20452d887bf650b322d1aef3c1f221b0f50844522b9ab89f7f7823980211b"
+    },
+    {
+      "path": "Artemis/Artemis/Core/WearablePowerTest.swift",
+      "sha256": "5ed407dc7301ed5f55e3347822641e6eba154920a4a5f1db7b6e29b448345e36"
+    },
+    {
+      "path": "Artemis/Artemis/Fastpath/ArtemisFastpathClient.swift",
+      "sha256": "0efef776729fbdcc183e86274c027cc5b738e158322882ec5cb0342b46372b98"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlClient.swift",
+      "sha256": "bcc8dee9ac6735192a3c9789bf22808714638e14de10b7834a9fb6b20966f0f1"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlDATSession.swift",
+      "sha256": "0222724c351fd74bb77361b3b6216a8b13ab102b739a0f80c6fe66826df60b4d"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlPayload.swift",
+      "sha256": "9e8ca110b56bcb7806be9deb830ae106a145fb5f79d6afb113d045ffa052c708"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlRootSwitch.swift",
+      "sha256": "63d4598ec75edde6b5e9dde7cbc4cdea0b9db225fb127c7eeaa0f70e62da426b"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlStateMachine.swift",
+      "sha256": "92ff79ce57a850c6968bba478cc7c6357050ce876c2a8f12c05f86284b6ac3ed"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlView.swift",
+      "sha256": "7c2d93f39583ec4dd823d5eb7e164e3b857ac61b929835d9d7a96c0efe8a5d37"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlViewModel.swift",
+      "sha256": "b765e652a615e5a011a6110fc02108ff25cc16688f53e9c709727186078c6129"
+    },
+    {
+      "path": "Artemis/Artemis/HUDControl/HUDControlVoiceAnnouncer.swift",
+      "sha256": "3f406b2ebb177247a98bd307e8998b763b162a724a2681bbc6e724dadad0eeed"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/ArtemisTTSLifecycle.swift",
+      "sha256": "355ad7ee0ff6186d992505980debaead3b45feeca6ab3ef3a42cd00b2ca2e940"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/ConversationLine.swift",
+      "sha256": "c2445bdf9ab65f84531fcefc79dbe3bb3029b436f7df3cacbb1da2c00c48c8ee"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/ConversationStore.swift",
+      "sha256": "a28c97e489629212749006e146c1716317bf4012dd313cff0444032acc96475e"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/EspeakNGG2PFrontend.swift",
+      "sha256": "819b14cf16faf2f0f8b217f5e01fe7393da98fc5999ca6af9ec5abdef36ce3f4"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/ExperimentalSemanticRouterUnavailable.swift",
+      "sha256": "df1f6d95432c8bda666b572cad47505323ac7b34b1bfa4a6f5be5164a0db70bf"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/FullDuplexAudioCoordinator.swift",
+      "sha256": "9f692661b7af2c636fe4ca2393825105ecf060ec0e6b7c31c5ac5117b22b6243"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/GemmaBrainService.swift",
+      "sha256": "337697cf0400b4a494031a2b6a3a0fb3318a96e8a41c940bd441e7d1dedc10d6"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/GemmaConversationPolicy.swift",
+      "sha256": "1110c707779cef83a4e82151986687dd5365a04d24c1a042fdf40707a2825c3a"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisBridgeClient.swift",
+      "sha256": "2632a769b71f9a0713d1041c02bcdeccbd081e9fbac594693dd54c7f171ac2cd"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisTurnRoutingPolicy.swift",
+      "sha256": "8d984397573bca4e1da8024b4cd6e8f2cdbf6ddbbd6c6c4d7a25600c46bf4cb5"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisVoiceKokoroONNXSupport.swift",
+      "sha256": "48910d3c07f6539ad1bc9ebd347087b94c3254cd108d27a91842fbb7599e2146"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisVoiceKokoroSpeechOutput.swift",
+      "sha256": "1d9f9ff6509063b820fede63c3fe3342fe703f3edac527937b31805b853e98d3"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisVoiceNanoRemoteSpeechOutput.swift",
+      "sha256": "632414b0d12ada45780b387160b37620dfc6b6751bae45a529a8b850198e4661"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisVoiceTTSChunker.swift",
+      "sha256": "355e9b96c1cc7adf2b3d718298381496f7adf32133f769a7448433c1b5def54d"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/JarvisVoiceTTSLifecycle.swift",
+      "sha256": "dd5bd693fecc21f32a79b76be1b7b9d9f2bcdd7a5395080ee36eeb93b2c7c355"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/LocalSpeechInputError.swift",
+      "sha256": "85e5e4682a6cefac9423dffaf9a805dc4469096abf6db4d99e528b945cd3990b"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/NanoRemoteTTSProtocol.swift",
+      "sha256": "99e24987738b6feefcc7ed5005faddf6e9cf8bae2779c973b895eee4ff70dc98"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/ParakeetSpeechInput.swift",
+      "sha256": "92f13994bbc34c5f652824cd17f5769acad8b6dc62363e67837b29ab188e1251"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/SileroVADMonitor.swift",
+      "sha256": "7abc40764c32fad2d3343e4328f8dca5a023a4c4902cd94af4de051bdc8a0677"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/SupertonicSpeechOutput.swift",
+      "sha256": "109101db768518f7bafccc96f2a23c2f7a72a48fa63ef2bbb8f8ef959d853ffc"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/VoiceContractV1.swift",
+      "sha256": "0f5c875ee1a6145d9fa0a22dcc74dca44fd0c2d3b16130c736cfbe7e7dabe093"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/VoiceRunLedger.swift",
+      "sha256": "a2387805fe944aea10ff957c87c07b1f9fa798b8b8ee016e95796eaa755adb52"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/VoiceSessionModel.swift",
+      "sha256": "83c5f4e9ca24e25f2829d93c989a6dd1ba0f62a4ae7941e765ce224a7a883da8"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/VoiceSpeechOutput.swift",
+      "sha256": "25e8cf5f039262b7974a188e5a7333ec62b2f4ce4edbf67dec4ea83cc67ea85b"
+    },
+    {
+      "path": "Artemis/Artemis/JarvisVoiceRuntime/VoiceTurnTakingPolicy.swift",
+      "sha256": "46e6175bd069f0923178eedeafe09959fc8ce34b5f382725b66c636577b44f73"
+    },
+    {
+      "path": "Artemis/Info.plist",
+      "sha256": "abc4fb1d7c3d92dabc862992fd559a4ccbcac29d5fd27ecd23da023858d50133"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/Package.swift",
+      "sha256": "beca105ca889d6cba0da9119330ed11143a13773444a33c38ec779959dcbe081"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/README.md",
+      "sha256": "2559241caf337973ab161adf34259f14f1e16517078268e887d38c1ecfab2c3b"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/BUILD",
+      "sha256": "a6ecccb66d166323b1efd2cf375a5a06f4703c4591b87cdf42feb924c3b491a2"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Benchmark.swift",
+      "sha256": "a385aaf30c62e4f0b29319fce08f7bb5128b929ed783c7ee86b7b2fd22c00d8d"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Capabilities.swift",
+      "sha256": "30bc7cd1057f9100ef19249863266481a61e4c80d2a28ccb6098236318dee020"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/CapabilitiesTests.swift",
+      "sha256": "6067100c08cc3424e9e1f4c4ce7d9327d18bdac716dafb7363c3afd5d6791229"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Config.swift",
+      "sha256": "2f7b0e956d34cc3b7d83f6c2f0834121a41fd8edaa72be4c98cad66f14a05241"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Conversation.swift",
+      "sha256": "7a55b63849aa809066027bf6e58a3f48e6dcbd8b2eba83e84d05da0042780f3a"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/ConversationTests.swift",
+      "sha256": "e350a07c103af28318e79388b33318e291acf858ebd3b680a63477423becf2e2"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Engine.swift",
+      "sha256": "feeec3b215c5f4eb5e1b12d04e8e5168cdc07e9fa061900c20939add4068d0cc"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/EngineTests.swift",
+      "sha256": "e64031b7978c6195366b6d6dc97528287b228cbc5c94e460821084bc330e9d92"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/ExperimentalFlags.swift",
+      "sha256": "62424ea643721ef80cdf6b91512fbd70acef40cd853ac6a8200d9056186bad64"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Info.plist",
+      "sha256": "f744bccabae13ca8292fa521ca9059e67b61835f20c771bfa24696423901f1f3"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/LiteRTLMError.swift",
+      "sha256": "019244fc515154d506c4f9762d5a540013fcd6ce861b61a83dfd351c593d5e0d"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Message.swift",
+      "sha256": "c9f3bcaa02897e406b8e3208c9c9657c8035d4830ee61dd0c5a2a6536f814d55"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/MessageTests.swift",
+      "sha256": "55c9e251d25fae12c162df8afac8eb5d0c8a408f2735a668aa87aedfb8d29eee"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/Tool.swift",
+      "sha256": "d9698c6c7f8425cfa1f479cec5070fe94d9ca732b3e20b171e3dd90ca1545422"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/ToolManager.swift",
+      "sha256": "7fed45d66e562a153dd61e57a8cc67cbd89fa063d1c09d9d20626ea48574d3f7"
+    },
+    {
+      "path": "Vendor/LiteRT-LM/swift/ToolTests.swift",
+      "sha256": "9284ea6292f4ec8655f2e827fbafa436eab528bdcc3f5f8c056073d90ae9a71b"
+    },
+    {
+      "path": "contracts/artemis-latest-frame.schema.json",
+      "sha256": "2d73d5a9b74ef9a2e6c98f66dc67c5c3a00b92e0ea2347ca8a6e151cf89ec76b"
+    },
+    {
+      "path": "contracts/artemis-live-evidence.schema.json",
+      "sha256": "0b8b7ab78d5440f6ca0961b7db16d1621109c5b98d4b2331132cc8f0a94f4b59"
+    },
+    {
+      "path": "tools/artemis_kokoro_static_check.py",
+      "sha256": "31bd457d2d3573ce7539f55fd27d2d1ee26c0064857c09985a716c560015321c"
+    },
+    {
+      "path": "tools/artemis_live_evidence_audit.py",
+      "sha256": "f03e8ae9c3eca546923301393784eb7b52224a6e9fe5054688d8b7e260ec4673"
+    },
+    {
+      "path": "tools/artemis_live_golden_static_check.py",
+      "sha256": "05fdb9a302bad354ca90f5cc3ab8f776e0350df329813596c527bc7d008a59d6"
+    },
+    {
+      "path": "tools/test_artemis_live_contracts.py",
+      "sha256": "57b1ab3560f88bf9d9af9cedf4c788267bc9378616f152b6a08b297a99a36129"
+    },
+    {
+      "path": "tools/test_dat_lifecycle_policy.swift",
+      "sha256": "e1a9cd26f7e367652bb1b30edcf0ca7e0d533c1ee13d6f7cc427fea97d64f818"
+    },
+    {
+      "path": "tools/test_dat_retry_policy.swift",
+      "sha256": "587807dc4ee8d89187edc18e720b6848a2b48a02f1e697ad4ba962fef4cd77bc"
+    },
+    {
+      "path": "tools/test_hierarchical_vision_policy.swift",
+      "sha256": "5bd6d9528c105e36db63d782a5e8d6310d22266dde394566fe1ed3831d8a9418"
+    },
+    {
+      "path": "tools/test_stt_turn_finalization_policy.swift",
+      "sha256": "9b2a75aaed78bdab5f451bcd345b36ce5b2893b576a71c054975acff321c7b2e"
+    },
+    {
+      "path": "tools/test_tts_chunker.swift",
+      "sha256": "fdd6d41cdbd5aa0de990aaf9014164a271936d892eb0bf1fd02cffa9c6e85402"
+    },
+    {
+      "path": "tools/test_turn_taking_barge_in.swift",
+      "sha256": "4436433417bd2260b6919c4b5158062c2e18d0e430bf35cd8b673934e052a3e7"
+    },
+    {
+      "path": "tools/test_vision_freshness_policy.swift",
+      "sha256": "92d717f84cfe2ea6a54b945ab540940c781292f37dc035cea95b5ff160997444"
+    }
+  ]
+}

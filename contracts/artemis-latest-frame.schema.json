@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.host/artemis-latest-frame.schema.json",
+  "title": "Artemis latest-frame inspector contract",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "frame_id",
+    "source_timestamp_ms",
+    "ingest_timestamp_ms",
+    "frame_age_ms",
+    "source_device",
+    "width",
+    "height",
+    "mime_type",
+    "content_hash",
+    "scene_change_score",
+    "queue_depth",
+    "artifact_ref",
+    "artifact_sha256"
+  ],
+  "properties": {
+    "frame_id": { "type": "integer", "minimum": 0 },
+    "source_timestamp_ms": { "type": "integer", "minimum": 0 },
+    "ingest_timestamp_ms": { "type": "integer", "minimum": 0 },
+    "frame_age_ms": { "type": "integer", "minimum": 0 },
+    "source_device": { "type": "string", "minLength": 1 },
+    "width": { "type": "integer", "minimum": 1 },
+    "height": { "type": "integer", "minimum": 1 },
+    "mime_type": {
+      "type": "string",
+      "enum": ["image/jpeg", "image/png", "image/webp"]
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "scene_change_score": { "type": "number", "minimum": 0, "maximum": 1 },
+    "queue_depth": { "type": "integer", "const": 1 },
+    "artifact_ref": { "type": "string", "pattern": "^/vision/frame/" },
+    "artifact_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "perceptual_hash": {
+      "type": ["string", "null"]
+    },
+    "duplicate_content": { "type": "boolean" },
+    "image_base64": { "type": "string" }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "originHash" : "253066b89b0b61c2f8610269cb145d22bba19c8cfb5efd40a7f96d8e74593fb1",
+  "pins" : [
+    {
+      "identity" : "fluidaudio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Devansh-Jain1/FluidAudio",
+      "state" : {
+        "revision" : "0a1baf7a2fa4b5458b918b54bfb09305e3226a93"
+      }
+    },
+    {
+      "identity" : "kokoro-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mlalma/kokoro-ios",
+      "state" : {
+        "revision" : "4d6d1d8ff8cd012014180c9cd4cf0151e7682354",
+        "version" : "1.0.11"
+      }
+    },
+    {
+      "identity" : "leap-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Liquid4All/leap-sdk",
+      "state" : {
+        "revision" : "a83ca1e80f6ec8e40412359a38a3def65a32dd35",
+        "version" : "0.10.9"
+      }
+    },
+    {
+      "identity" : "meta-wearables-dat-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/meta-wearables-dat-ios",
+      "state" : {
+        "revision" : "2e30f1253ab76ee3c448a29dce39114ab09763c3",
+        "version" : "0.8.0"
+      }
+    },
+    {
+      "identity" : "misakiswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mlalma/MisakiSwift",
+      "state" : {
+        "revision" : "6835a1ce4a8854075c89f18ff75c74b13ef58e15",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "mlx-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ml-explore/mlx-swift",
+      "state" : {
+        "revision" : "f58bd2c2b3b84316da69182f436db4219aff30b9",
+        "version" : "0.30.2"
+      }
+    },
+    {
+      "identity" : "mlxutilslibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mlalma/MLXUtilsLibrary.git",
+      "state" : {
+        "revision" : "41f6cfd5d68b65aa3c65a34efe3b71c371ed915b",
+        "version" : "0.0.6"
+      }
+    },
+    {
+      "identity" : "onnxruntime-swift-package-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/microsoft/onnxruntime-swift-package-manager",
+      "state" : {
+        "revision" : "b7fb7f7dea8a2469e6335d95a61b8f36d0dc83b2",
+        "version" : "1.24.2"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "0c0290ff6b24942dadb83a929ffaaa1481df04a2",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    },
+    {
+      "identity" : "zipfoundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/weichsel/ZIPFoundation.git",
+      "state" : {
+        "revision" : "22787ffb59de99e5dc1fbfe80b19c97a904ad48d",
+        "version" : "0.9.20"
+      }
+    }
+  ],
+  "version" : 3
+}

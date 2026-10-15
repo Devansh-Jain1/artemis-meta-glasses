@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.host/artemis-live-evidence.schema.json",
+  "title": "Artemis live end-to-end evidence record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "app_build_commit",
+    "device_ids",
+    "glasses_connection_state",
+    "audio_input_route",
+    "audio_output_route",
+    "dat_state",
+    "frame_id",
+    "frame_timestamp_ms",
+    "frame_age_ms",
+    "stt_partial_sequence",
+    "final_transcript",
+    "finalization_reason",
+    "selected_brain",
+    "selected_model",
+    "model_latency_ms",
+    "tts_engine",
+    "first_response_ms",
+    "end_to_end_ms",
+    "response_text",
+    "used_current_visual_context",
+    "artifact_refs",
+    "artifact_hashes",
+    "pass",
+    "evidence_class"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "app_build_commit": { "type": "string", "minLength": 1 },
+    "device_ids": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "glasses_connection_state": { "type": "string", "minLength": 1 },
+    "audio_input_route": { "type": "string", "minLength": 1 },
+    "audio_output_route": { "type": "string", "minLength": 1 },
+    "dat_state": { "type": "string", "minLength": 1 },
+    "frame_id": { "type": "integer", "minimum": 0 },
+    "frame_timestamp_ms": { "type": "integer", "minimum": 0 },
+    "frame_age_ms": { "type": "integer", "minimum": 0 },
+    "stt_partial_sequence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "timestamp_ms", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "text": { "type": "string" },
+          "timestamp_ms": { "type": "integer", "minimum": 0 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    },
+    "final_transcript": { "type": "string" },
+    "finalization_reason": { "type": "string", "minLength": 1 },
+    "selected_brain": { "type": "string", "minLength": 1 },
+    "selected_model": { "type": "string", "minLength": 1 },
+    "model_latency_ms": { "type": "integer", "minimum": 0 },
+    "tts_engine": { "type": "string", "minLength": 1 },
+    "first_response_ms": { "type": "integer", "minimum": 0 },
+    "end_to_end_ms": { "type": "integer", "minimum": 0 },
+    "response_text": { "type": "string" },
+    "used_current_visual_context": { "type": "boolean" },
+    "artifact_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "ref"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "ref": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "artifact_hashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      }
+    },
+    "pass": { "type": "boolean" },
+    "evidence_class": {
+      "type": "string",
+      "enum": ["unit", "simulated", "replay", "component", "live_dat", "live_assistant", "golden"]
+    }
+  }
+}
